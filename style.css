@@ -16,7 +16,7 @@ a{
 }
 
 .apresentacao{
-    margin: 10%;
+    margin: 10% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -24,15 +24,37 @@ a{
 
 .apresentacao__conteudo{
     width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .apresentacao__conteudo__titulo{
     font-family: "Krona One", sans-serif;
-    padding-bottom: 40px;
+    padding-bottom: 5px;
     font-size: 36px; 
 }
 
 .apresentacao__conteudo__texto{
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
+    padding-bottom: 15px;
+}
+
+.apresentacao__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links__link {
+    background-color: #22D4FD;
+    width: 280px;
+    text-align: center;
+    color: #000000;
+    border-radius: 16px;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    padding: 21.5px 0;
+    text-decoration: none;
+    font-weight: 600;
 }
