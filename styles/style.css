@@ -21,12 +21,10 @@ body{
     font-weight: 600;
     text-decoration: none;
     color: #22D4FD;
-
 }
 
 .cabecalho__menu__link:hover{
     color: #F6F6F6;
-
 }
 
 a{
@@ -51,6 +49,31 @@ a{
     font-family: "Krona One", sans-serif;
     padding-bottom: 5px;
     font-size: 36px; 
+}
+
+.apresentacao__conteudo__titulo__curriculo{
+    font-family: "Krona One", sans-serif;
+    padding-bottom: 6px;
+    font-size: 36px; 
+}
+
+.apresentacao__conteudo__subtitulo {
+    font-family: "Krona One", sans-serif;
+    font-size: 24px;
+    padding: 5% 0% 3%;
+
+}
+
+.apresentacao__conteudo__lista {
+    font-family: "Montserrat", sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.apresentacao__conteudo__texto__curriculo {
+    font-family: "Montserrat", sans-serif;
+    font-size: 19px;
+    font-weight: 400;
 }
 
 .titulo-destaque{
@@ -106,5 +129,5 @@ a{
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
 }
